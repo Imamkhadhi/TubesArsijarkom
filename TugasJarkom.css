@@ -1,0 +1,401 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", cursive;
+}
+
+header{
+    background: #1A2238;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.btn{
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: rgb(45, 136, 124);
+    color: #ffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+li a{
+    transition: sll 0.5s ease 0s;
+    display: inline-block;
+}
+
+li a:hover{
+    color: #FF6A3D;
+    transform: rotate(2deg);
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.contaier{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding: 85px 0px;
+}
+
+#title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.description{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.description1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.foto{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+.parallax{
+    background-image: url('gambar/1717921891809.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100vh;   
+}
+
+.assignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1A2238;
+    color: #ffff;
+    padding: 20px;
+}
+
+#materi{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item{
+    width: 75%;
+    background: #FF6A3D;
+    color: #ffff;
+    padding: 24px;
+    box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.card-title{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.card-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.selengkapnya{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn a:hover{
+    color: #1A2238;
+}
+
+.card-item2{
+    width: 75%;
+    background: #FF6A3D;
+    color: #ffff;
+    padding: 24px;
+    box-shadow: 2px 5px 5px 1px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.kontak{
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(45, 136, 124);
+}
+
+.contac-left{
+    flex-basis: 35%;
+}
+
+.contac-left p{
+    margin-top: 30px;
+}
+
+.contac-left p i{
+    color: #FF6A3D;
+    font-size: 25px;
+}
+
+.icons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.icons a{
+    text-decoration: none;
+    font-size: 70px;
+    margin: 5px 20px;
+    color: #FF6A3D;
+    display: inline-block;
+    transform: transform 0.5s;
+}
+
+.icons a{
+    transition: 600ms ease-in-out;
+    transform: transform .5s;
+}
+
+.icons a:hover{
+    color: #1A2238;
+    transform: scale(1.30);
+}
+
+.btntr{
+    text-align: center;
+    font-size: 12px;
+}
+
+.btntutor{
+    background: #1A2238;
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    padding: 14px 45px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #FF6A3D;
+}
+
+.btntr a{
+    color: #FF6A3D;
+}
+
+
+
+/* Untuk Materi */
+
+#judul{
+    padding-top: 60px;
+}
+
+.nav-home{
+    background: #1A2238;
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+}
+
+span{
+    color: #FF6A3D;
+}
+
+.container-materi{
+    padding: 0px 5%;
+}
+
+.container-materi .kontak{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.content{
+    padding: 20px 15px;
+    background-color: #FF6A3D;
+    border: 0.1px solid #494747;
+    border-radius: 50px;
+    color: #1A2238;
+}
+
+.btn1{
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: rgb(45, 136, 124);
+    color: #ffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1 a:hover{
+    color: #1A2238;
+}
+
+.pembahasan{
+    padding: 10px;
+}
+
+.container-isi{
+    padding: 10px 5%;
+}
+
+.row-isi{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.isi{
+    width: 45%;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.isi h1{
+    font-size: 100%px;
+    margin-bottom: 15px;
+
+}
+
+.pict{
+    width: 40%;
+    text-align: justify;
+}
+
+.pict img{
+    width: 75%;
+    border-radius: 30px;
+}
+
+@media screen and  (max-width: 500gpx) {
+    .card{
+        flex-direction: column;
+    }
+    .card-item{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding: 0;
+    }
+    .intro{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .judul{
+        padding-top: 60px;
+    }
+    .container-materi{
+        padding: 0px 5%;
+    }
+    .container-materi .sub-title{
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+    .container-isi{
+        padding: 10px 5%;
+    }
+    .content{
+        padding: 30px 5%;
+        background-color: #1A2238;
+        border: 0.1px solid #FF6A3D;
+        border-radius: 50px;
+    }
+    .content p{
+        margin: 10px 0;
+        font-size: 10px;
+    }
+    .pembahasan{
+        padding: 10px;
+    }
+    .row-isi{
+        padding: 30px 0px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap
+    }
+    .isi{
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .isi h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+        color: #1A2238;
+    }
+    .isi p{
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .pict{
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    .pict img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
